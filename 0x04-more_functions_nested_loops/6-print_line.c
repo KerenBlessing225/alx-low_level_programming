@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * ptint_line - a function that draws a straight line in the terminal
+ * print_line - a function that draws a straight line in the terminal
  * @n: input number of times to print '_'
  * Return: a straight line
  */
 void print_line(int n)
 {
-	int ro;
+	int co;
 
 	if (n <= 0)
 	{
@@ -15,7 +15,7 @@ void print_line(int n)
 	}
 	else
 	{
-		for (ro = 1; ro <= n; ro++)
+		for (co = 1; co <= n; co++)
 		{
 			_putchar('_');
 		}
